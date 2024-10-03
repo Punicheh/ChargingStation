@@ -28,4 +28,4 @@ Pour rendre les résultats plus accessibles et faciliter l'interprétation des d
 
 ### Carte du Ratio Combiné
 
-"https://macarte.ign.fr/carte/Sk950P/Relation-entre-Population-Trafic-et-Couverture-en-Bornes-de-Recharge-par-Departement"
+"https://macarte.ign.fr/carte/wgINtD/Relation-entre-Population-Trafic-et-Couverture-en-Bornes-de-Recharge-par-Departement"
