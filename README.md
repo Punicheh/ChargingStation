@@ -26,7 +26,3 @@ Le calcul de ce ratio combiné a été intégré dans un fichier Excel, que nous
 
 Pour rendre les résultats plus accessibles et faciliter l'interprétation des données, nous avons réalisé une carte interactive représentant le ratio combiné (%) des bornes de recharge par habitant et par trafic. Cette carte permet une visualisation claire de la répartition des bornes à travers les différents départements de France.
 
-### Carte du Ratio Combiné
-
-![Carte du Ratio Combiné des Bornes de Recharge par Département](chemin/vers/carte.png)
-> _Figure 1 : Carte montrant le ratio combiné (%) des bornes de recharge par habit
