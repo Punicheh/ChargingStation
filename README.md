@@ -29,3 +29,7 @@ Pour rendre les résultats plus accessibles et faciliter l'interprétation des d
 ### Carte du Ratio Combiné
 
 "https://macarte.ign.fr/carte/wgINtD/Relation-entre-Population-Trafic-et-Couverture-en-Bornes-de-Recharge-par-Departement"
+
+### Feuilles de calcul 
+
+"https://docs.google.com/spreadsheets/d/1KpUIzjNI_tAW0Pn3cikmtc41abmtECPA/edit?usp=sharing&ouid=108501590314128773627&rtpof=true&sd=true"
