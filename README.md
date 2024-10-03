@@ -1,57 +1,32 @@
 # ChargingStation
+
 # Analyse de la Répartition des Infrastructures de Recharge en France
 
 ## Introduction
-Dans le cadre de notre étude, nous nous sommes penchés sur la répartition des infrastructures de recharge pour véhicules électriques en France. Notre objectif était de répondre à la question suivante : **La répartition des infrastructures de recharge sur le territoire correspond-elle à une logique de distribution de la population et de trafic routier ?**
 
-Pour cela, nous avons récupéré des données open data fournies par le gouvernement français, que nous avons soigneusement triées, nettoyées et filtrées. Nous avons ensuite visualisé ces données à l'aide d'une carte IGN pour mettre en lumière la situation des infrastructures de recharge à travers le pays.
+Dans le cadre de notre projet, nous avons travaillé sur la problématique suivante : **La répartition des infrastructures de recharge sur le territoire correspond-elle à une logique de distribution de la population et de trafic routier ?**. Cette question nous a guidés à travers l’analyse de données disponibles sur les bornes de recharge électrique, afin de comprendre la cohérence entre le nombre de bornes, la densité de la population, et le trafic routier à travers les différents départements de France.
 
-### 1. Analyse des Bornes par Habitant
+Notre objectif était de vérifier si la répartition des bornes de recharge suit logiquement la densité de la population et le trafic routier, permettant ainsi d'évaluer l'efficacité de l'infrastructure de recharge au regard de l'utilisation potentielle par les habitants et les usagers de la route.
 
-#### Ratio Maximum
-Le ratio maximum de "bornes par habitant" que nous avons calculé est d'environ **0,0041**, ce qui signifie qu'au mieux, il y a environ 4 bornes pour 1 000 habitants. Ce chiffre souligne une disponibilité limitée des bornes, même dans les départements les mieux dotés en infrastructures de recharge.
+## Méthodologie
 
-#### Disparités Régionales
-Notre analyse a révélé des disparités importantes entre les départements. Ceux avec un ratio élevé montrent un effort significatif pour installer des bornes par rapport à leur population. Cela pourrait être le fruit de politiques locales proactives ou de subventions spécifiques pour encourager l'électromobilité.
+### Analyse des Bornes de Recharge par Population et Trafic
 
-#### Départements Moins Bien Dotés
-À l'inverse, les départements avec un ratio très bas risquent d'avoir des difficultés à répondre à la demande croissante de recharge des véhicules électriques. Cette faible couverture pourrait freiner l'adoption de véhicules électriques dans ces régions.
+Dans un premier temps, nous avons décidé de **réaliser une analyse du nombre de bornes de recharge en fonction de la population et du trafic annuel**. L’idée principale était de vérifier si le nombre de bornes de recharge disponible correspondait au besoin des habitants et à la circulation routière dans chaque département.
 
-### 2. Analyse des Bornes par Trafic (TMJA)
+Pour ce faire, nous avons commencé par calculer le nombre total de bornes de recharge électrique par département. Les données comprenaient le **nombre de bornes de recharge, la population par département**, ainsi que les informations relatives au **Trafic Moyen Journalier Annuel (TMJA)**.
 
-#### Ratio Maximum
-Nous avons calculé que le ratio maximum de "bornes par trafic" (TMJA) est de **0,173**. Cela signifie qu'il y a environ 1 borne pour 6 véhicules sur la route dans les meilleures conditions. Ce chiffre reflète une couverture relativement faible, particulièrement dans les zones à fort trafic, où l'accès aux bornes est crucial pour encourager l'adoption des véhicules électriques.
+### Formulation d'un Ratio Combiné
 
-#### Zones à Fort Trafic
-Dans les départements où le trafic est important mais la couverture en bornes est faible, il existe un risque de saturation rapide des bornes de recharge existantes. Cela pourrait entraîner des temps d'attente plus longs pour les utilisateurs et souligne le besoin urgent d'étendre les infrastructures dans ces régions.
+Nous avons ensuite développé une formule permettant de **combiner les ratios des bornes par rapport à la population** et **par rapport au trafic routier**. Ce ratio combiné nous permet d’obtenir une vue d’ensemble plus nuancée, qui prend en compte à la fois la densité démographique et la charge potentielle liée au trafic routier.
 
-### 3. Normalisation et Ratio Combiné
+Le calcul de ce ratio combiné a été intégré dans un fichier Excel, que nous avons utilisé pour **synthétiser et visualiser** nos résultats sous forme de carte et de tableaux. Ce travail nous a permis d'identifier les régions sous-équipées ou suréquipées, en tenant compte de l’ensemble de ces facteurs.
 
-#### Importance de la Normalisation
-Nous avons également normalisé nos données afin de mieux comparer la disponibilité des bornes par habitant et par trafic. Cette approche permet de révéler des disparités qui ne sont pas visibles avec des valeurs brutes. Par exemple, une région à faible population mais à fort trafic peut sembler bien équipée par rapport à sa population, mais être insuffisamment équipée pour répondre à la demande générée par le trafic.
+## Visualisation des Résultats
 
-#### Ratio Combiné
-Le ratio combiné que nous avons élaboré prend en compte à la fois la densité de population et le niveau de trafic, offrant ainsi un meilleur aperçu de la pression exercée sur les bornes de recharge.
+Pour rendre les résultats plus accessibles et faciliter l'interprétation des données, nous avons réalisé une carte interactive représentant le ratio combiné (%) des bornes de recharge par habitant et par trafic. Cette carte permet une visualisation claire de la répartition des bornes à travers les différents départements de France.
 
-- **Ratio Combiné Élevé** : Les départements avec un ratio combiné élevé ont une bonne couverture en termes de bornes, que ce soit par rapport à la population ou au trafic.
-- **Ratio Combiné Faible** : À l'inverse, un ratio combiné faible suggère qu'il est nécessaire d'investir dans de nouvelles infrastructures, notamment dans les zones à forte densité de population ou de trafic.
+### Carte du Ratio Combiné
 
-### 4. Points de Vigilance
-
-#### Saturation Future des Infrastructures
-Avec l'augmentation de l'adoption des véhicules électriques, les départements ayant actuellement une faible densité de bornes, particulièrement ceux avec un fort TMJA, risquent de voir leurs infrastructures saturées rapidement. Des investissements sont donc nécessaires pour éviter ces goulots d'étranglement.
-
-#### Adoption des Véhicules Électriques
-Dans les régions où le ratio de "bornes par habitant" est faible, cela peut décourager l'adoption de véhicules électriques. En effet, un manque perçu d'infrastructures de recharge pourrait freiner les citoyens dans leur transition vers des véhicules plus respectueux de l'environnement.
-
-### Recommandations
-
-1. **Expansion des Bornes dans les Zones à Fort Trafic** : Les départements avec une forte TMJA mais une couverture de bornes faible doivent être prioritaires pour l'installation de nouvelles bornes.
-   
-2. **Cibler les Départements à Ratio Combiné Faible** : Les ratios combinés faibles montrent clairement les régions où des efforts supplémentaires doivent être faits pour équilibrer l'infrastructure avec les besoins de la population et du trafic.
-   
-3. **Investissements Proactifs** : Dans les régions où le ratio "bornes par habitant" est très faible, il est crucial d'investir dans les infrastructures de recharge afin de faciliter l'adoption des véhicules électriques et de contribuer aux objectifs de réduction des émissions de carbone.
-
-## Conclusion
-
-Notre analyse met en lumière des disparités significatives entre les départements en matière de couverture en bornes de recharge pour véhicules électriques. Les départements les moins bien équipés risquent de rencontrer des difficultés croissantes avec l'augmentation de l'adoption des véhicules électriques. Une planification proactive et des investissements stratégiques sont nécessaires pour répondre à ces défis et encourager la transition vers une mobilité plus durable.
+![Carte du Ratio Combiné des Bornes de Recharge par Département](chemin/vers/carte.png)
+> _Figure 1 : Carte montrant le ratio combiné (%) des bornes de recharge par habit
