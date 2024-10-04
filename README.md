@@ -34,7 +34,7 @@ Pour rendre les résultats plus accessibles et faciliter l'interprétation des d
 
 ### Carte du Ratio Combiné
 
-[Relation entre Population, Trafic et Couverture en Bornes de Recharge par Département](https://macarte.ign.fr/carte/wgINtD/Relation-entre-Population-Trafic-et-Couverture-en-Bornes-de-Recharge-par-Departement)
+[Relation entre Population, Trafic et Couverture en Bornes de Recharge par Département](https://macarte.ign.fr/carte/9AaMOZ/Analyse-des-Opportunites-de-Deploiement-des-Bornes-de-Recharge-Electriques-en-France)
 
 ### Feuille de calcul 
 
