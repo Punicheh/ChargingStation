@@ -40,9 +40,13 @@ Pour rendre les résultats plus accessibles et faciliter l'interprétation des d
 
 [Feuille de calcul Google Sheets des Données de Bornes de Recharge](https://docs.google.com/spreadsheets/d/1KpUIzjNI_tAW0Pn3cikmtc41abmtECPA/edit?usp=sharing&ouid=108501590314128773627&rtpof=true&sd=true)
 
+## Problèmes Rencontrés
+
+Nous avons rencontré certaines difficultés au cours de l'analyse des données. Le **TMJA** n’est pas 100% fiable étant donné que les informations ne sont pas à jour et datent de 2019. De plus, il manque certaines informations, comme pour le département 8 qui ne possède aucune valeur concernant son TMJA, en raison de données incomplètes ou peu claires dans les sources disponibles.
+
 ## Conclusion
 
-Grâce à cette analyse, nous avons pu mieux comprendre la répartition des infrastructures de recharge en France. Cette analyse a mis en lumière des disparités régionales importantes, suggérant que certains départements sont potentiellement sous-équipés, tandis que d'autres semblent avoir une bonne densitée de borne par rapport à la population et au trafic routier.
+Grâce à cette analyse, nous avons pu mieux comprendre la répartition des infrastructures de recharge en France. Elle a mis en lumière des disparités régionales importantes, suggérant que certains départements sont potentiellement sous-équipés, tandis que d'autres semblent avoir une bonne densitée de borne par rapport à la population et au trafic routier.
 
 Ces résultats montrent l’importance d’une **planification stratégique des infrastructures de recharge**, pour mieux aligner les besoins des habitants et des usagers de la route avec l’offre de recharge disponible. La visualisation sous forme de carte et de tableau nous a permis de simplifier l'interprétation des données pour un public plus large.
 
