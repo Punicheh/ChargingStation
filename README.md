@@ -42,17 +42,11 @@ Pour rendre les résultats plus accessibles et faciliter l'interprétation des d
 
 ## Conclusion
 
-Grâce à cette analyse, nous avons pu mieux comprendre la répartition des infrastructures de recharge en France. Cette analyse a mis en lumière des disparités régionales importantes, suggérant que certains départements sont potentiellement sous-équipés, tandis que d'autres semblent avoir une densité de bornes de recharge en excès par rapport à la population et au trafic routier.
+Grâce à cette analyse, nous avons pu mieux comprendre la répartition des infrastructures de recharge en France. Cette analyse a mis en lumière des disparités régionales importantes, suggérant que certains départements sont potentiellement sous-équipés, tandis que d'autres semblent avoir une bonne densitée de borne par rapport à la population et au trafic routier.
 
 Ces résultats montrent l’importance d’une **planification stratégique des infrastructures de recharge**, pour mieux aligner les besoins des habitants et des usagers de la route avec l’offre de recharge disponible. La visualisation sous forme de carte et de tableau nous a permis de simplifier l'interprétation des données pour un public plus large.
 
 Nous prévoyons d'approfondir cette analyse en examinant des facteurs supplémentaires, tels que la distribution des types de véhicules électriques, la localisation des autoroutes et grandes routes, et les politiques régionales en matière de transition énergétique.
-
-## Perspectives Futures
-
-- Évaluer la **localisation précise** des bornes, pour analyser si leur placement est optimal par rapport aux grands axes de circulation.
-- Prendre en compte les **politiques locales et régionales** qui influencent le déploiement des infrastructures de recharge, afin d’évaluer leur impact sur l'équité territoriale.
-- Étudier la **capacité des bornes de recharge** (puissance de charge) pour mieux comprendre la qualité de l’infrastructure, en plus de la quantité.
 
 > Nous restons ouverts à vos commentaires et suggestions pour affiner notre analyse et améliorer la qualité des infrastructures de recharge en France.
 
