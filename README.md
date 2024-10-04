@@ -28,6 +28,29 @@ Nous avons ensuite développé une formule permettant de **combiner les ratios d
 
 Le calcul de ce ratio combiné a été intégré dans un fichier Excel, que nous avons utilisé pour **synthétiser et visualiser** nos résultats sous forme de carte et de tableaux. Ce travail nous a permis d'identifier les régions sous-équipées ou suréquipées, en tenant compte de l’ensemble de ces facteurs.
 
+### Calcul des Indicateurs de Base
+
+1. **Bornes par habitant** :
+   Cette mesure nous indique combien de bornes de recharge sont disponibles pour chaque habitant dans un département.
+   - **Formule** : `Nombre de bornes / Population du département`
+
+2. **Bornes par trafic** :
+   Cela montre combien de bornes sont disponibles par rapport au trafic moyen journalier annuel (TMJA).
+   - **Formule** : `Nombre de bornes / TMJA`
+
+### Calcul du Ratio Combiné
+
+Pour combiner ces deux indicateurs (bornes par habitant et bornes par trafic), nous avons procédé à une normalisation :
+
+1. **Normalisation des ratios** : Pour chaque indicateur, nous divisons chaque valeur par la valeur maximale de cette colonne. Cela permet de ramener toutes les valeurs dans une échelle de 0 à 1.
+   - **Formule pour la normalisation** : `Valeur actuelle / Valeur maximale de la colonne`
+
+2. **Moyenne des valeurs normalisées** : Ensuite, nous faisons la moyenne des deux valeurs normalisées pour obtenir un ratio combiné.
+   - **Formule pour le ratio combiné** : `(bornes_par_habitant_normalisé + bornes_par_trafic_normalisé) / 2`
+
+3. **Conversion en Pourcentage** : Le ratio combiné est ensuite multiplié par 100 pour obtenir un pourcentage. Cela permet de mieux interpréter le niveau de couverture.
+   - **Formule pour le pourcentage** : `Ratio combiné * 100`
+
 ## Visualisation des Résultats
 
 Pour rendre les résultats plus accessibles et faciliter l'interprétation des données, nous avons réalisé une carte interactive représentant le ratio combiné (%) des bornes de recharge par habitant et par trafic. Cette carte permet une visualisation claire de la répartition des bornes à travers les différents départements de France.
